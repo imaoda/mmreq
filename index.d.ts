@@ -1,4 +1,4 @@
-type Param<P extends any | string | ArrayBuffer = any> = {
+export type Param<P extends any | string | ArrayBuffer = any> = {
   url: string
   data?: P
   header?: {
